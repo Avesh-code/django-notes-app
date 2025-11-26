@@ -1,6 +1,6 @@
 @Library('Shared') _
 pipeline{
-    agent Any
+    agent any
 
     stages{
         stage("hello"){
