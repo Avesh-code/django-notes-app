@@ -1,6 +1,6 @@
 @Library('Shared') _
 pipeline{
-    agent { label "main-agent" }
+    agent Any
 
     stages{
         stage("hello"){
